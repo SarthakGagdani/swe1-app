@@ -1,2 +1,2 @@
 # swe1-app
-Django Polls App
+Django Hello World application
