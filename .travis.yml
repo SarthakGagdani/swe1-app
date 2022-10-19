@@ -20,6 +20,6 @@ deploy:
   region: 'us-west-2'
   app: "django-polls-app"
   env: "poll-app"
-  bucket_name: "[BUCKET NAME]"
+  bucket_name: "elasticbeanstalk-us-west-2-476244886696"
   on:
     all_branches: true
