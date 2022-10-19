@@ -1,5 +1,7 @@
 # swe1-app
-Django Hello World application
+## Django Polls Application
+
+### Integrated with Travis CI
 
 [![Coverage Status](https://coveralls.io/repos/github/SarthakGagdani/swe1-app/badge.svg?branch=main)](https://coveralls.io/github/SarthakGagdani/swe1-app?branch=main)
 
