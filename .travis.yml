@@ -6,8 +6,8 @@ install:
   - pip install -r requirements.txt
 
 script:
-  - black --check .
-  - flake8 .
+  - black ./
+  - flake8 ./
   - coverage run --source=swe1,helloworld,polls manage.py test
 
 after_success:

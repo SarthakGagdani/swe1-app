@@ -4,6 +4,7 @@ from django.utils import timezone
 from django.urls import reverse
 from .models import Question
 
+
 class QuestionModelTests(TestCase):
     def test_was_published_recently_with_future_question(self):
         """
@@ -78,7 +79,6 @@ class QuestionIndexViewTests(TestCase):
 
 
 class QuestionDetailViewTests(TestCase):
-
     def test_past_question(self):
         """
         The detail view of a question with a pub_date in the past
